@@ -28,12 +28,20 @@ public class myTest {
 
         System.out.println(Arrays.toString(a));
     }
+
     @Test
-    public void test02(){
+    public void test02() {
 
-     String a="a";
-     String b="c";
-     System.out.println(a.compareTo(b));
+        String a = "a";
+        String b = "c";
+        System.out.println(a.compareTo(b));
 
+    }
+
+    @Test
+    public void test03() {
+        int[] nums = new int[]{2, 0, 2, 1, 1, 0};
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
     }
 }
